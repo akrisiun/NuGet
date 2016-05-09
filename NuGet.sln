@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{E7B39EAD-EA32-4011-845A-C949A336389A}"
 EndProject
@@ -32,8 +32,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nuget.build", "nuget.build"
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "src\Core\Core.csproj", "{F879F274-EFA0-4157-8404-33A19B4E6AEC}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Test", "test\Core.Test\Core.Test.csproj", "{D3106412-E3AF-4CB6-B6D3-3664465B491F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "V3", "V3", "{F7AB250E-2479-4C9A-AFB2-67A9954918C3}"
 EndProject
@@ -71,31 +69,8 @@ Global
 		{F879F274-EFA0-4157-8404-33A19B4E6AEC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F879F274-EFA0-4157-8404-33A19B4E6AEC}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{F879F274-EFA0-4157-8404-33A19B4E6AEC}.Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{D3106412-E3AF-4CB6-B6D3-3664465B491F}.Coverage|Any CPU.ActiveCfg = Coverage|Any CPU
-		{D3106412-E3AF-4CB6-B6D3-3664465B491F}.Coverage|Any CPU.Build.0 = Coverage|Any CPU
-		{D3106412-E3AF-4CB6-B6D3-3664465B491F}.Coverage|Mixed Platforms.ActiveCfg = Coverage|Any CPU
-		{D3106412-E3AF-4CB6-B6D3-3664465B491F}.Coverage|Mixed Platforms.Build.0 = Coverage|Any CPU
-		{D3106412-E3AF-4CB6-B6D3-3664465B491F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D3106412-E3AF-4CB6-B6D3-3664465B491F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D3106412-E3AF-4CB6-B6D3-3664465B491F}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{D3106412-E3AF-4CB6-B6D3-3664465B491F}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{D3106412-E3AF-4CB6-B6D3-3664465B491F}.Mono Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D3106412-E3AF-4CB6-B6D3-3664465B491F}.Mono Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D3106412-E3AF-4CB6-B6D3-3664465B491F}.Mono Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{D3106412-E3AF-4CB6-B6D3-3664465B491F}.Mono Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{D3106412-E3AF-4CB6-B6D3-3664465B491F}.Mono Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D3106412-E3AF-4CB6-B6D3-3664465B491F}.Mono Release|Any CPU.Build.0 = Release|Any CPU
-		{D3106412-E3AF-4CB6-B6D3-3664465B491F}.Mono Release|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{D3106412-E3AF-4CB6-B6D3-3664465B491F}.Mono Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{D3106412-E3AF-4CB6-B6D3-3664465B491F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D3106412-E3AF-4CB6-B6D3-3664465B491F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D3106412-E3AF-4CB6-B6D3-3664465B491F}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{D3106412-E3AF-4CB6-B6D3-3664465B491F}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{D3106412-E3AF-4CB6-B6D3-3664465B491F} = {E7B39EAD-EA32-4011-845A-C949A336389A}
 	EndGlobalSection
 EndGlobal
